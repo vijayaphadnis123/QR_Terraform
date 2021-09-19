@@ -6,15 +6,15 @@ provider "azurerm" {
   features {}
 }
 
-terraform {
+#terraform {
 
-  backend "azurerm" {
-    storage_account_name = "udaqualityrelease"
-    container_name       =  "tfstate"
-    key                  = "prod.terraform.tfstate"
-    access_key           = "2J5PXy90L6HZdHGIPqxdNsnZ1y/5XHkVWVPBDuh0VvqAaqP1JFTB2Ce3NYlIU1cXe3IFWLWoB0sqfti+SHa6oQ=="
+#  backend "azurerm" {
+#   storage_account_name = "udaqualityrelease"
+#    container_name       =  "tfstate"
+#    key                  = "prod.terraform.tstate"
+#    access_key           = "2J5PXy90L6HZdHGIPqxdNsnZ1y/5XHkVWVPBDuh0VvqAaqP1JFTB2Ce3NYlIU1cXe3IFWLWoB0sqfti+SHa6oQ=="
    
-  }
+# }
 
 }
 
